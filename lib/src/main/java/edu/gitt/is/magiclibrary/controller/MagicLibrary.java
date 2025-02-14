@@ -1,5 +1,9 @@
 /**
+<<<<<<< HEAD
 * Controlador principal para arrancar la aplicaci�n Magic Library, construye la vista principal y los controladores para cada tipo de entidad
+=======
+ * Controlador principal para arrancar la aplicaci�n Magic Library, construye la vista principal y los controladores para cada tipo de entidad
+>>>>>>> refs/heads/Practica8.1
  */
 package edu.gitt.is.magiclibrary.controller;
 
@@ -37,6 +41,7 @@ public class MagicLibrary {
 	 */
 	public static void main(String[] args) {
 		log.info("Hola soy Hugo ejecutando la aplicación");
+		log.info("Traza de prueba");
 		log.info("Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 		log.log(Level.INFO, "Arranco la aplicaci�n y creo el controlador para manejar entidades desde la interfaz");
 
